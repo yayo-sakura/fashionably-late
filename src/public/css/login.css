@@ -1,0 +1,113 @@
+.header {
+    background: rgba(255, 255, 255, 1);
+}  
+
+.header__inner {
+    margin: 0 auto;
+    border: 1px solid rgba(224, 223, 222, 1)
+}
+  
+.header__logo {
+    color: rgba(139, 121, 105, 1);
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  .header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav__item {
+    margin-right: 70px;
+    border: 1px solid rgba(217, 198, 181, 1)
+}
+
+
+.header-nav__link {
+    text-decoration: none;
+    background: rgba(240, 240, 240, 0.6);
+    color: rgba(217, 198, 181, 1);
+    padding: 2px 20px;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.login__content {
+    background-color: #fbf4f4;
+    padding-bottom: 50px;
+}
+
+.login__heading {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgba(139, 121, 105, 1)
+}
+
+.form {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    width: 736px;
+    height: 644px;
+    padding: 40px;
+    border: 1px solid rgba(197, 185, 176, 1)
+}
+
+.form__group {
+    color: #a58585;
+    justify-content: space-between;
+    width: 445px;
+    height: 102px;
+    margin-bottom: 20px;
+}
+
+.form__label--item {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.form__group-content {
+    color: #d5bebe;
+}
+
+.form__input--text {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    border:none;
+    outline:0;
+    background: #ebebeb;
+    padding: 5% 50% 5% 5%;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form__button {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form__button-submit {
+    color: rgba(255, 255, 255, 1);
+    padding: 5px 30px 5px 30px;
+    background: rgba(130, 117, 106, 1);
+    border: none;
+}

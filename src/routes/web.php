@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\FashionablylateController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FashionablylateController::class, 'index']);
+Route::post('/contacts/confirm', [FashionablylateController::class, 'confirm']);
+Route::post('/contacts', [FashionablylateController::class, 'store']);
+Route::post('/admin', [FashionablylateController::class, 'admin']);
+Route::get('/register', [FashionablylateController::class, 'register']);
+Route::get('/login', [FashionablylateController::class, 'login']);
