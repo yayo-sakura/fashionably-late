@@ -48,6 +48,7 @@
                 <input type="radio" class="radio" name="gender" required checked="checked"><label>男性</label>
                 <input type="radio" class="radio" name="gender"><label>女性</label>
                 <input type="radio" class="radio" name="gender"><label>その他</label>
+            @error('gender')
             {{ $message }} 
             @enderror
             </div>

@@ -24,7 +24,7 @@ class ContactRequest extends FormRequest
     public function rules()
     {
         return [
-            'category_id' => ['required']
+            'category_id' => ['required'],
             'last_name' => ['required','string','max:255'],
             'first_name' => ['required','string','max:255'],
             'gender' => ['required','tinyInteger'],
@@ -34,8 +34,8 @@ class ContactRequest extends FormRequest
             'tel_third' => ['required','numeric', 'max:255'],
             'address' => ['required','string','max:255'],
             'building' => ['string','max:255'],
-            'select' => ['required']
-            'detail' => ['required','text','max:120']
+            'select' => ['required'],
+            'detail' => ['required','text','max:120'],
         ];
     }
 
